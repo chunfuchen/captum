@@ -367,6 +367,7 @@ SUPPORTED_LAYERS_WITH_RULES = {
     nn.MaxPool2d: EpsilonRule,
     nn.MaxPool3d: EpsilonRule,
     nn.Conv2d: EpsilonRule,
+    nn.Conv3d: EpsilonRule,
     nn.AvgPool2d: EpsilonRule,
     nn.AdaptiveAvgPool2d: EpsilonRule,
     nn.Linear: EpsilonRule,
